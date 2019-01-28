@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "document": true,
+    "window": true
+  },
+  "rules": {
+    "import/no-cycle": "off",
+    "prefer-destructuring": ["error", {"object": true, "array": false}],
+    "no-useless-concat": "off"
+  }
+}
